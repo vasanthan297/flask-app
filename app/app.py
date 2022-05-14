@@ -13,6 +13,6 @@ def home():
         return render_template('index.html', bg_color=bg_color, font_color=font_color, msg=names[value])
 
 if __name__ == '__main__':
-       app.run(host="0.0.0.0", port=8080)
+       app.run(host="0.0.0.0")
     #margin-top: -100px; 
     #margin-left: -900px; 
